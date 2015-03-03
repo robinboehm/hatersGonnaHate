@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Haters Gonna Hate</title>
+</head>
+<body style="background-image: url('giphy.gif');">
+<iframe width="300" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/171327749&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+<script>
+  (function(){
+    var backgroundPosition = 0;
+    var body = document.getElementsByTagName('body')[0];
+    setInterval(function(){
+      body.style['background-position-x'] = (backgroundPosition++)*2 + '%';
+      body.style['background-position-y'] = (backgroundPosition) + '%';
+    },460)
+  })()
+</script>
+</body>
+</html>
+
